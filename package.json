@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "echo 'built'",
+    "test": "node ./tests/dummy.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shreelimbkar/github-actions-demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shrivardhan Limbkar <limbkarshree@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shreelimbkar/github-actions-demo/issues"
